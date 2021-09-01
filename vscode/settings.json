@@ -1,0 +1,44 @@
+{
+    "git.autofetch": true,
+    "editor.tabSize": 2,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.workingDirectories": [
+        "./app"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vetur.grammar.customBlocks": {
+        "docs": "md",
+        "i18n": "json"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+    "redhat.telemetry.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "codic.ACCESS_TOKEN": "gPKGLr0t5auBhNOmRukWaTwk1EPFS2CzjZ",
+    "codic.case": "camelCase",
+    "eslint.nodePath": ""
+}
